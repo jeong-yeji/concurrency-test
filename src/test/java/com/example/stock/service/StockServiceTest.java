@@ -61,7 +61,6 @@ class StockServiceTest {
         latch.await();
 
         Stock stock = stockRepository.findById(1L).orElseThrow();
-        assertEquals(0, stock.getQuantity()); // 레이스 컨디션으로 인한 테스트 실패
-        // 레이스 컨디션 : 둘 이상의 스레드가 공유 데이터에 엑세스 할 수 있고 동시에 변경을 시도할 때 생기는 문제
+        assertEquals(0, stock.getQuantity());
     }
 }
