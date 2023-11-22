@@ -103,3 +103,14 @@
 - Redis
   - 활용 중인 Redis가 없다면 별도의 구축 비용과 인프라 관리 비용 발생
   - MySQL보다 성능이 좋음
+
+---
+
+reference
+
+- [인프런 - 재고시스템으로 알아보는 동시성이슈 해결방법](https://inf.run/FrsT)
+- [레디스를 활용한 분산 락(Distrubuted Lock) feat lettuce, redisson](https://0soo.tistory.com/256)
+- [MySQL을 이용한 분산락으로 여러 서버에 걸친 동시성 관리](https://techblog.woowahan.com/2631/)
+- [풀필먼트 입고 서비스팀에서 분산락을 사용하는 방법 - Spring Redisson](https://helloworld.kurly.com/blog/distributed-redisson-lock/)
+- [Weekly Java: 간단한 재고 시스템으로 학습하는 동시성 이슈](https://sigridjin.medium.com/weekly-java-간단한-재고-시스템으로-학습하는-동시성-이슈-9daa85155f66)
+- [Redisson Github](https://github.com/redisson/redisson)
